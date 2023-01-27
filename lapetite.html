@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaPetite.</title>
+
+    <link rel="stylesheet" href="css/lapetite.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="header">
+            <div class="grid-container">
+                <div class="logo-div">
+                    <a href="index.html"><img src="img/Logo.png" alt="logo" class="logo" id="logo" /></a>
+                </div>
+                <!--navigation bar-->
+                <div class="nav-div">
+                    <nav class="navigation">
+                        <div class="navbar__container">
+                            <div class="navbar__toggle" id="mobile-menu">
+                                <span class="bar"></span> <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                            <ul class="navbar__menu">
+                                <li class="navbar__item">
+                                    <a href="index.html" class="underline-animation navbar__links">Main</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="art.html" class="underline-animation navbar__links">Art</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="resume.html" class="underline-animation navbar__links">Resume</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="#contact" class="underline-animation navbar__links">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
+        <br>
+    </header>
+
+    <main class="container">
+        <h1>project: LaPetite.</h1>
+        <!--part 1 project-->
+        <div class="project-step-left">
+            <h2>first step: contact client</h2>
+            <div class="row">
+                <div class="col-xl-6 col-lg-12">
+                    <img src="img/LaPetite..png" alt="first draft" class="project-img">
+                </div>
+                <div class="col-xl-6 col-lg-12">
+                    <div class="text-div-left">
+                        <p>We first talk about what my client wants to communicate through his website, and we do a
+                            first draft together.<br>My objectives were to get the right:</p>
+                        <ul>
+                            <li>_display</li>
+                            <li>_font sizes & colours</li>
+                            <li>_colour theme</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--part 2 project-->
+        <div class="project-step-right">
+            <h2 class="project-h2-right">second step: making a first website</h2>
+            <div class="row">
+                <div class="col-xl-6 col-lg-12">
+                    <div class="text-div-right">
+                        <p class="text-2">Then I make a first website out of it and i will then take critiques from my
+                            client. we will also choose the exact colours he wants.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12">
+                    <img src="img/LaPetite2..png" alt="second step" class="project-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- part 3 project -->
+        <div class="project-step-left">
+            <h2>third step: adjusting the website</h2>
+            <div class="row">
+                <div class="col-xl-6 col-lg-12">
+                    <img src="img/LaPetite3..png" alt="third step" class="project-img">
+                </div>
+                <div class="col-xl-6 col-lg-12">
+                    <div class="text-div-left">
+                        <p>We then adjust the colours and images to his needs and add the JS animation. This was my main
+                            project so far. I learnt a lot from it mostly new JS libraries like ReactJS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="container">
+                <div class="social-icons-container">
+                    <a href="https://twitter.com/lea_fevrier" target="_blank"><img src="img/twitter.svg"
+                            class="social-icon" alt="Twitter icon" /></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" class="social-icon"
+                            alt="Facebook icon" /></a>
+                    <a href="https://www.pinterest.co.uk/lafvrier/_saved/" target="_blank"><img src="img/pinterest.svg"
+                            class="social-icon" alt="Pinterest icon" /></a>
+                    <a href="https://www.instagram.com/leah_fevrier/?hl=fr" target="_blank"><img src="img/instagram.svg"
+                            class="social-icon" alt="Instagram icon" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-footer">
+            <p class="text-footer-p">website designed by léa février<br>
+                Copyright © 2021</p>
+        </div>
+
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+
+</html>

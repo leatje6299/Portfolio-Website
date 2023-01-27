@@ -1,0 +1,21 @@
+
+      h1, #name {
+        text-align: center;
+      }
+      h1, h2, h3, h4 {
+        color: #232366;
+      }
+      body {
+        font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+        font-size: 22px;
+      }
+      main {
+        padding: 18px;
+      }
+      section {
+        border-bottom: 1px solid #B3B3E5;
+      }
+
+      .wireframe-img {
+        width: 40%;
+      }
